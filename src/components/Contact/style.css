@@ -1,0 +1,135 @@
+.section-contact{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 45px 0;
+    position: relative;
+}
+.section-contact h5{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+.div-container-contact{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+    height: auto;
+}
+.div-content-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-content-contact form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.div-content-contact form label{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+.div-content-contact form input{
+    width: 260px;
+    height: 35px;
+    padding: 4px;
+    border: none;
+    font-size: 16px;
+}
+.div-content-contact form textarea{
+    width: 260px;
+    height: 70px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+.button-links{
+    margin-top: 30px;
+    width: 260px;
+    height: 40px;
+    background: #ff4d4d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button-links:hover{
+    background: rgb(255, 77, 77, 0.8);
+}
+.div-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.container-enlaces{
+    width: 70px;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.container-enlaces img{
+    width: 70%;
+    height: 70%;
+}
+.div-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.div-done--form{
+    width: 260px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 403px;
+}
+.error{
+    background: #ef233c;
+}
+.correct{
+    background: #80ed99;
+}
+.div-done--form p{
+    color: white;
+    font-size: 16px;
+}
+@media (max-width: 700px) {
+    .section-contact{
+        margin-top: 230px;
+    }
+    .div-container-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .div-done--form{
+        left: calc(50% - 130px);
+    }
+  } 
+  @media (max-width: 500px) {
+    .section-contact{
+        margin-top: 300px;
+    }
+  }

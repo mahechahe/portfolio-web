@@ -1,0 +1,53 @@
+.section-experience{
+    width: 80%;
+    margin: 0 auto;
+    height: 450px;
+    text-align: center;
+    padding: 40px 0;
+}
+.title-experience{
+    color: white;
+    font-size: 40px;
+}
+.div-experience{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+}
+.div-experience-image{
+    display: grid;
+    place-content: center;
+}
+.image-experience{
+    width: 100%;
+    height: 90%;
+}
+.descrption-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descrption-experience h2{
+    color: white;
+    margin-bottom: 3px;
+}
+.descrption-experience h5{
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #616161;
+}
+.descrption-experience p{
+    font-size: 17px;
+    width: 350px;
+    color: white;
+}
+@media (max-width: 700px) {
+    .div-experience{
+        display: flex;
+        flex-direction: column;
+    }
+  }

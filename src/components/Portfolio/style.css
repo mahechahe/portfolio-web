@@ -1,0 +1,141 @@
+.section--container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+.div--container{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    margin: 0 auto;
+    gap: 70px 20px;
+}
+.div-container-detail{
+    width: 100%;
+    width: 440px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.title{
+    position: absolute;
+    color: white;
+    top: -35px;
+    background: none;
+}
+.opacity-active{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .8;
+    top: 0;
+    z-index: 2;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+.img:hover{
+    background: black;
+    opacity: .5;
+}
+.title-portfolio{
+    color: white;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+.modal{
+    width: 600px;
+    height: 520px;
+    background: white;
+    position: absolute;
+    top: calc(50% - 200px);
+    right: calc(50% - 300px);
+    z-index: 3;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.container--modal-title{
+    width: 70%;
+    margin: 20px auto;
+    display: grid;
+    place-content: center;
+    height: 50px;
+    background: none;
+    border-bottom: 2px solid #ced4da;
+}
+.container--modal-title h2{
+    background: none;
+    color: #343a40;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.container--modal-image{
+    width: 100%;
+    height: 250px;
+}
+.imgModal{
+    width: 100%;
+    height: 100%;
+}
+.container--modal-text{
+    padding: 5px;
+    margin-top: 5px;
+    background: none;
+    
+}
+.container--modal-text p{
+    background: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #616161;
+}
+.button-close{
+    background: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    color: #FF4D4D;
+    border: 2px solid #FF4D4D;
+    cursor: pointer;
+}
+.button-close:hover{
+    color: #F9CB28;
+    border: 2px solid #F9CB28;
+}
+.div-enlaces{
+    width: 20%;
+    margin: 5px auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-icon{
+    width: 30px;
+    background: none;
+}
+@media (max-width: 700px) {
+    .div-container-detail{
+        width: 100%;
+    }
+    .modal{
+        width: 400px;
+        height: 500px;
+        left: calc(50% - 200px);
+    }
+} 
